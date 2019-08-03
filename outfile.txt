@@ -1,0 +1,26 @@
+# Example #1 – Simple Boolean function 
+# Problem parameters:
+#   num_variables –          4
+#   num_minterms –           7
+#   num_minterms_dont_care – 3
+# Minterms 0, 2, 5, 6, 7, 8, 13
+
+# Output:
+# variables –    4
+# essential –    3
+# Prime –        6
+
+# Essentials
+-000
+0-10
+-1-1
+
+# Non-Essential primes
+00-0
+000-
+1-00
+0-01
+011-
+110-
+
+# End of file
